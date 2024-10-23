@@ -7,8 +7,9 @@ export default function Index(){
         Escolha {'\n'}
         <Text style={styles.subtitle}>os produtos</Text>
       </Text>
-      <Text style={styles.subtitle}>
-        Descubra receitas baseadas nos produtos que você escolheu
+      <Text style={styles.message}>
+        Descubra receitas baseadas nos {'\n'}
+        <Text>produtos que você escolheu</Text>
       </Text>
     </View>
   )
