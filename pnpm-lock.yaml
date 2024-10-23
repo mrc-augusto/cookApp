@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@expo-google-fonts/poppins':
+        specifier: ^0.2.3
+        version: 0.2.3
+      '@expo-google-fonts/roboto':
+        specifier: ^0.2.3
+        version: 0.2.3
       '@expo/vector-icons':
         specifier: ^14.0.2
         version: 14.0.4
@@ -18,7 +24,7 @@ importers:
         specifier: ~51.0.28
         version: 51.0.38(@babel/core@7.25.9)(@babel/preset-env@7.25.9(@babel/core@7.25.9))
       expo-font:
-        specifier: ~12.0.9
+        specifier: ~12.0.10
         version: 12.0.10(expo@51.0.38(@babel/core@7.25.9)(@babel/preset-env@7.25.9(@babel/core@7.25.9)))
       expo-linking:
         specifier: ~6.3.1
@@ -842,6 +848,12 @@ packages:
 
   '@bcoe/v8-coverage@0.2.3':
     resolution: {integrity: sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==}
+
+  '@expo-google-fonts/poppins@0.2.3':
+    resolution: {integrity: sha512-PXkur1ZY/puy1PwVFYPJx8qiI3dtBzC2ig1bo53swCt7/sI7krCGYRO6hLBNp15M0kcNh2J4cCR9ZQyFxsving==}
+
+  '@expo-google-fonts/roboto@0.2.3':
+    resolution: {integrity: sha512-PF6S//ZYWeXfpYTwvY2oEe0d5RnqwR5KMsGjuTgg6y9p/CPK/IkWL+wsbkzjfd+Jck1Q1pRlWOoe5uz42sQFRg==}
 
   '@expo/bunyan@4.0.1':
     resolution: {integrity: sha512-+Lla7nYSiHZirgK+U/uYzsLv/X+HaJienbD5AKX1UQZHYfWaP+9uuQluRB4GrEVWF0GZ7vEVp/jzaOT9k/SQlg==}
@@ -5742,6 +5754,10 @@ snapshots:
       '@babel/helper-validator-identifier': 7.25.9
 
   '@bcoe/v8-coverage@0.2.3': {}
+
+  '@expo-google-fonts/poppins@0.2.3': {}
+
+  '@expo-google-fonts/roboto@0.2.3': {}
 
   '@expo/bunyan@4.0.1':
     dependencies:
