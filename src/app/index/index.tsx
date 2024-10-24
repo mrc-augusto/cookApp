@@ -1,5 +1,6 @@
 import {View, Text} from 'react-native'
 import {styles} from './styles'
+import { Ingredients } from '@/components/Ingredients'
 export default function Index(){
   return(
     <View style={styles.container}>
@@ -11,6 +12,8 @@ export default function Index(){
         Descubra receitas baseadas nos {'\n'}
         <Text>produtos que você escolheu</Text>
       </Text>
+
+      <Ingredients/>
     </View>
   )
 }
